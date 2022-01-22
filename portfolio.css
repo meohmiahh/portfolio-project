@@ -33,7 +33,7 @@ font-weight: 400;
 .hero{
     background-color: var(--secondary-color);
     text-align: left;
-    padding: 160px 90px;
+    padding: 160px 160px;
 }
 
 .hero p{
@@ -56,6 +56,11 @@ font-weight: 400;
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
+}
 
-;
+.headshot{
+    border-radius: 50%;
+    width:300px;
+    float:right;
+    margin: 23px 90px 0px 30px;
 }
