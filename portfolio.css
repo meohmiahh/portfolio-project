@@ -45,6 +45,7 @@ line-height: 1.5;
     font-size: 30px;
     font-weight: bold;
     color:#21243D;
+    margin: 0px 4px;
 }
 
 .hero h2{
@@ -52,6 +53,7 @@ line-height: 1.5;
     font-weight:normal;
     font-size: 30px;
     color:#21243D;
+    margin: 0px 4px;
 }
 
 .btn-branding{
@@ -73,11 +75,11 @@ line-height: 1.5;
     padding: 15px 30px;
 }
 
-.headshot{
+#headshot{
     border-radius: 50%;
-    width:300px;
-    float:right;
-    margin: 23px 90px 0px 30px;
+    width:400px;
+    margin: -10px 103px;
+    
 }
 
 .project-description{
@@ -92,20 +94,34 @@ line-height: 1.5;
 @media(max-width:900px){
     h1{
         font-size: 45px;
+        margin-top: 15px;
     }
-    h2{
-        font-size:25px;
+      .hero{
+        text-align: center;
+        padding:40px 60px 0px;
+    }
+    .hero h2{
+        font-size:20px;
+        line-height: 1.5em;
+        margin-bottom: 5px;
+    }
+    .hero p{
+        font-size:20px;
     }
     .project-description{
         text-align: center;
     }
 
-    .hero{
-        text-align: center;
-    }
-    .headshot{
+  
+    #headshot{
         display:block;
-        margin: 0 auto;
-    
+    margin: 40px auto;
+       max-width: 75%;
+       
     }
+    #weather-app, 
+    #gilmore-girls{
+        margin-bottom: 15px;
+    }
+
 }
