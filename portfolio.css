@@ -2,126 +2,155 @@
 font-family: 'Playfair Display', serif;
 font-family: 'Roboto', sans-serif; */
 
-:root{
---branding-color:#B36A5E;
---secondary-color:#EED7C5;
---heading-font-family: 'Playfair Display', serif;
---default-font-family: 'Nunito', sans-serif;
+:root {
+  --branding-color: #b36a5e;
+  --secondary-color: #eed7c5;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Nunito", sans-serif;
 }
 
-body{
-    font-family: var(--default-font-family);
+body {
+  font-family: var(--default-font-family);
 }
 
-h1, h2, h3, h5, h5, h6{
-font-family:var(--heading-font-family);
-font-weight: bold;
-color:black;
-
+h1,
+h2,
+h3,
+h5,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  color: black;
 }
 
-h1{
-    font-size: 90px;
-
+h1 {
+  font-size: 90px;
 }
 
-h3{
-    font-size: 15px;
+h3 {
+  font-size: 15px;
 }
 
-p{
-font-family: var(--default-font-family);
-font-weight: 400;
-line-height: 1.5;
+p {
+  font-family: var(--default-font-family);
+  font-weight: 400;
+  line-height: 1.5;
 }
 
-.hero{
-    background-color: var(--secondary-color);
-    text-align: left;
-    padding: 160px 160px;
+.hero {
+  background-color: var(--secondary-color);
+  text-align: left;
+  padding: 160px 160px;
 }
 
-.hero p{
-    font-size: 30px;
-    font-weight: bold;
-    color:#21243D;
-    margin: 0px 4px;
+.hero p {
+  font-size: 30px;
+  font-weight: bold;
+  color: #21243d;
+  margin: 0px 4px;
 }
 
-.hero h2{
-    font-family: var(--default-font-family);
-    font-weight:normal;
-    font-size: 30px;
-    color:#21243D;
-    margin: 0px 4px;
+.hero h2 {
+  font-family: var(--default-font-family);
+  font-weight: normal;
+  font-size: 30px;
+  color: #21243d;
+  margin: 0px 4px;
 }
 
-.btn-branding{
-    background: var(--branding-color);
-    border-radius: 4px;
-    color:white;
-    font-size: 18px;
-    line-height: 27px;
-    padding: 15px 30px;
+.about-section{
+  padding: 40px 160px;
 }
 
-.btn-branding-outline{
-    color:var(--branding-color);
-    border: 2px solid var(--branding-color);
-    border-radius: 4px;
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 27px;
-    padding: 15px 30px;
+.about-section h2{
+font-family: var(--heading-font-family);
+color: #28282b;
+font-size: 20px;
 }
 
-#headshot{
-    border-radius: 50%;
-    width:400px;
-    margin: -10px 103px;
-    
+.about-section p{
+font-family: 'Nunito', sans-serif;
+color: black;
+font-size: 14px;
+line-height: 25px;
 }
 
-.project-description{
-    padding: 7px 20px;
+.about-section-content{
+padding: 30px;
 }
 
-.project-description p{
-    line-height: 29px;
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
 
+.btn-branding-outline {
+  color: var(--branding-color);
+  border: 2px solid var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 27px;
+  padding: 15px 30px;
+}
 
-@media(max-width:900px){
-    h1{
-        font-size: 45px;
-        margin-top: 15px;
-    }
-      .hero{
-        text-align: center;
-        padding:40px 60px 0px;
-    }
-    .hero h2{
-        font-size:20px;
-        line-height: 1.5em;
-        margin-bottom: 5px;
-    }
-    .hero p{
-        font-size:20px;
-    }
-    .project-description{
-        text-align: center;
-    }
+#headshot {
+  border-radius: 50%;
+  width: 400px;
+  margin: -10px 103px;
+}
 
-  
-    #headshot{
-        display:block;
+#full-body-image{
+  width:350px;
+  margin: 75px 100px;
+}
+
+.project-description {
+  padding: 7px 20px;
+}
+
+.project-description p {
+  line-height: 29px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 45px;
+    margin-top: 15px;
+  }
+  .hero {
+    text-align: center;
+    padding: 40px 60px 0px;
+  }
+  .hero h2 {
+    font-size: 20px;
+    line-height: 1.5em;
+    margin-bottom: 5px;
+  }
+  .hero p {
+    font-size: 20px;
+  }
+
+  .about-section{
+    text-align: center;
+    padding: 0px 20px;
+  }
+  .project-description {
+    text-align: center;
+  }
+
+  #headshot, #full-body-image {
+    display: block;
     margin: 40px auto;
-       max-width: 75%;
-       
-    }
-    #weather-app, 
-    #gilmore-girls{
-        margin-bottom: 15px;
-    }
-
+    max-width: 75%;
+  }
+  #weather-app,
+  #gilmore-girls {
+    margin-bottom: 15px;
+  }
 }
