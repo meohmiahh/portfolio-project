@@ -262,7 +262,7 @@ footer .social-links a:hover{
     padding: 0px 20px;
   }
   .content-container h1{
-    font-size: 40px;
+    font-size: 30px;
   }
   .project-description {
     text-align: center;
@@ -277,8 +277,19 @@ footer .social-links a:hover{
   #gilmore-girls {
     margin-bottom: 15px;
   }
+  .contact-information{
+    max-width:350px;
+    margin: 30px;
+  }
+  .contact-information h1{
+    font-size: 50px;
+  }
 footer .contact-box{
   padding: 30px;
+}
+p.second-footer{
+  margin: 30px;
+  font-size:13px;
 }
 
 }
